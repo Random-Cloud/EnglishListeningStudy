@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Zack.Commons" Version="1.1.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="FileService.Infrastructure\Configs\" />
+    <Folder Include="FileService.Infrastructure\Migrations\" />
+    <Folder Include="FileService.Infrastructure\Properties\" />
+    <Folder Include="FileService.Infrastructure\Services\" />
+  </ItemGroup>
+
+</Project>

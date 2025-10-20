@@ -1,0 +1,12 @@
+﻿FileService.Domain : 领域层
+need do : 
+CLOSE 1. Entities ：上传文件的实体  
+CLOSE 2. enum StorageType ：存储类型枚举（本地存储、云存储等）
+CLOSE 3. IStorageClient : 存储接口，用于区分不同存储实现
+CLOSE 4. IFSDomainService : 仓库接口，用于查找文件
+CLOSE 5. FSDomainService : 领域服务，文件上传的完整业务流程处理
+	1. 文件唯一性标识生成
+	2. 存储路径（Key）生成
+	3. 文件重复校验（防重复上传）
+	4. 双存储备份
+	5. 生成领域实体（UploadedItem）
