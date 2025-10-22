@@ -7,14 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.10" />
     <PackageReference Include="Zack.Commons" Version="1.1.11" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="FileService.Infrastructure\Configs\" />
-    <Folder Include="FileService.Infrastructure\Migrations\" />
-    <Folder Include="FileService.Infrastructure\Properties\" />
-    <Folder Include="FileService.Infrastructure\Services\" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
   </ItemGroup>
 
 </Project>
